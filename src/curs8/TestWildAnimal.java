@@ -37,7 +37,7 @@ public class TestWildAnimal {
 		simba = new Deer();
 		simba.makeSound();
 		((Deer) simba).eatGrass();
-		feedAnimal(simba);
+		feedAnimal(simba);//this is polimorfism
 	}
 	
 	public static void feedAnimal(WildAnimal animal) {
